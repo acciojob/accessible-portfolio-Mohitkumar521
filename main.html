@@ -5,12 +5,32 @@
 <head>
 	<link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
-
+    <header role="heading" aria-level="1">
+        <h1>My Accessible Portfolio</h1>
+    </header>
+    
+    <nav role="navigation">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Projects</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+    
+    <main>
+        <img src="profile.jpg" alt="My Profile Picture" role="img">
+        <p>A passionate web developer with a focus on accessible and inclusive design.</p>
+        
+        <section role="list">
+            <h2>Highlighted Projects</h2>
+            <ul>
+                <li role="listitem">Project 1: Accessible Website</li>
+                <li role="listitem">Project 2: Inclusive Web App</li>
+                <li role="listitem">Project 3: Responsive Design</li>
+            </ul>
+        </section>
+	</main>
 </body>
-
 </html>
